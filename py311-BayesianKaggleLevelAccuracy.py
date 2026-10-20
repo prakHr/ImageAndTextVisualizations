@@ -113,7 +113,7 @@ def get_awesome_accuracy(
             estim = HyperoptEstimator(
                 classifier=classifier(name),
                 algo=tpe.suggest,
-                max_evals=30,
+                max_evals=1,
                 trial_timeout=120,
             )
 
@@ -169,10 +169,7 @@ def get_awesome_accuracy(
     )
 
     # Train the second-level classifier.
-    meta_model = LogisticRegression(
-        max_iter=1000,
-        random_state=random_state,
-    )
+    meta_model = best_model
 
     meta_model.fit(S_train, y_train)
 
