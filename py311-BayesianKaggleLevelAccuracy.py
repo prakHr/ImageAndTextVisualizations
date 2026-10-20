@@ -126,9 +126,7 @@ def get_awesome_accuracy(
             if not best_model_info:
                 continue
 
-            # Hyperopt-Sklearn commonly returns a dictionary
-            # containing the fitted learner and preprocessing.
-
+           
             # Keep the complete fitted pipeline when available.
             best_estimator = best_model_info.get("learner")
 
