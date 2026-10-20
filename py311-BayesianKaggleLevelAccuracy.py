@@ -79,15 +79,12 @@ def get_awesome_accuracy(
         "ExtraTreeClassifier": extra_tree_classifier,
         "GaussianNB": gaussian_nb,
         "DecisionTreeClassifier": decision_tree_classifier,
-        "QuadraticDiscriminantAnalysis":
-            quadratic_discriminant_analysis,
-        "PassiveAggressiveClassifier":
-            passive_aggressive_classifier,
+        "QuadraticDiscriminantAnalysis": quadratic_discriminant_analysis,
+        "PassiveAggressiveClassifier": passive_aggressive_classifier,
         "SGDClassifier": sgd_classifier,
         "LinearSVC": linear_svc,
         "XGBClassifier": xgboost_classification,
-        "LinearDiscriminantAnalysis":
-            linear_discriminant_analysis,
+        "LinearDiscriminantAnalysis": linear_discriminant_analysis,
         "RandomForestClassifier": random_forest_classifier,
         "ExtraTreesClassifier": extra_trees_classifier,
         "KNeighborsClassifier": k_neighbors_classifier,
