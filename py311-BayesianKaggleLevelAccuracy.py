@@ -113,7 +113,7 @@ def get_awesome_accuracy(
             estim = HyperoptEstimator(
                 classifier=classifier(name),
                 algo=tpe.suggest,
-                max_evals=1,
+                max_evals=30,
                 trial_timeout=120,
             )
 
