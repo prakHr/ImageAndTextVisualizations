@@ -1,9 +1,12 @@
+# python 3.11 version
+
 """
 hyperopt==0.2.7
 hyperopt-sklearn==1.1.1
 lazypredict==0.3.0
 vecstack==0.5.2
 """
+
 
 
 import os
